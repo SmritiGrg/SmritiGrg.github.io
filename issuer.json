@@ -1,0 +1,10 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Issuer",
+    "id": "https://username.github.io/issuer.json",
+    "name": "Gajabaar",
+    "url": "https://username.github.io",
+    "email": "contact@yourorganization.com",
+    "description": "We offer certified cybersecurity and tech training programs.",
+    "image": "https://username.github.io/tryBadge.png"
+}
