@@ -1,7 +1,7 @@
 {
     "@context": "https://w3id.org/openbadges/v2",
     "type": "Issuer",
-    "id": "https://smritigrg.github.io/issuer.json",
+    "id": "https://smritigrg.github.io/issuer2.json",
     "name": "Gajabaar",
     "url": "https://smritigrg.github.io/",
     "email": "contact@smritiGrg.com",
