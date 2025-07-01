@@ -1,10 +1,10 @@
 {
     "@context": "https://w3id.org/openbadges/v2",
     "type": "Issuer",
-    "id": "https://SmritiGrg.github.io/issuer.json",
+    "id": "https://smritigrg.github.io/issuer.json",
     "name": "Gajabaar",
-    "url": "https://SmritiGrg.github.io",
+    "url": "https://smritigrg.github.io/",
     "email": "contact@yourorganization.com",
     "description": "We offer certified cybersecurity and tech training programs.",
-    "image": "https://SmritiGrg.github.io/tryBadge.png"
+    "image": "https://smritigrg.github.io/tryBadge.png"
 }
