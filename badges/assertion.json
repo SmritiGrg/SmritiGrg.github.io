@@ -1,0 +1,17 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "Assertion",
+    "id": "https://smritigrg.github.io/badges/assertion.json",
+    "recipient": {
+        "type": "email",
+        "hashed": true,
+        "salt": "randomsalt",
+        "identity": "sha256$2ac5d3f29fa21f07bd58e565730dea5b9757245c3ab7700b31e36cb1bce55717554121e964da83144ea08be4dcbb6600058f59c8c1dc940b48766e46be6c5e44"
+    },
+    "badge": "https://smritigrg.github.io/badges/badgeClass.json",
+    "verification": {
+        "type": "Hosted"
+    },
+    "issuedOn": "2025-07-23T08:39:00+00:00",
+    "image": "https://smritigrg.github.io/tryBadge.png"
+}

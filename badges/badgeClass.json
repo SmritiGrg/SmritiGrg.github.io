@@ -1,0 +1,12 @@
+{
+    "@context": "https://w3id.org/openbadges/v2",
+    "type": "BadgeClass",
+    "id": "https://smritigrg.github.io/badges/badgeClass.json",
+    "name": "Cybersecurity Beginner",
+    "description": "Awarded for completing the beginner cybersecurity course.",
+    "image": "https://smritigrg.github.io/tryBadge.png",
+    "criteria": {
+        "narrative": "Completed all modules and passed the final test."
+    },
+    "issuer": "https://smritigrg.github.io/badges/issuer2.json"
+}
