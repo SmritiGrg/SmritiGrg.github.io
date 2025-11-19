@@ -13,6 +13,7 @@
       referrerpolicy="no-referrer"
     />
     <link rel="icon" type="image/x-icon" href="assets/img/sgLogo.png" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <!-- Mobile Hamburger Button -->
@@ -209,7 +210,7 @@
 
     <!-- START Sidebar -->
     <aside
-      class="hidden sm:flex fixed left-0 top-0 h-screen border-r border-whitebeige/25 w-[130px] flex-col items-center py-6"
+      class="hidden sm:flex fixed left-0 top-0 h-screen border-r border-whitebeige/25 w-[130px] flex-col items-center py-6 z-50"
     >
       <!-- Logo -->
       <div class="mb-10">
@@ -466,6 +467,7 @@
       <div class="relative flex flex-col items-center order-1 md:order-2">
         <div
           class="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden border-y-8 border-orange shadow-[0_10px_20px_rgba(209,72,54,1.7)]"
+          data-aos="zoom-in"
         >
           <img
             src="assets/img/profile.jpeg"
@@ -476,59 +478,74 @@
         <img
           src="assets/img/html.png"
           class="w-10 sm:w-12 absolute -left-8 top-52 sm:-left-12 sm:top-52 -rotate-45"
+          data-aos="fade-up-left"
         />
         <img
           src="assets/img/mysql.png"
           class="w-14 sm:w-20 absolute -left-5 bottom-28 sm:-left-16 sm:bottom-36 -rotate-45"
+          data-aos="fade-up-left"
         />
         <img
           src="assets/img/docker.png"
           class="w-10 sm:w-12 absolute left-10 bottom-24 sm:left-4 sm:bottom-28 rotate-12"
+          data-aos="fade-up-left"
         />
         <img
           src="assets/img/figma.png"
           class="w-10 sm:w-14 absolute right-8 -top-2 sm:right-8 sm:-top-3 -rotate-12"
+          data-aos="fade-up-right"
         />
         <img
           src="assets/img/postgresql.png"
           class="w-7 sm:w-9 absolute -right-1 top-8 rotate-12"
+          data-aos="fade-up-right"
         />
         <img
           src="assets/img/python.png"
           class="w-9 sm:w-11 absolute -right-8 top-24 rotate-12"
+          data-aos="fade-up-right"
         />
         <i
           class="fa-brands fa-github text-white text-2xl sm:text-3xl absolute left-4 top-6 sm:left-4 sm:top-2 -rotate-12"
+          data-aos="fade-up-left"
         ></i>
         <i
           class="fa-brands fa-git-alt absolute right-10 bottom-24 sm:right-10 sm:bottom-28 text-gitorange text-3xl sm:text-4xl rotate-12"
+          data-aos="fade-right"
         ></i>
         <img
           src="assets/img/css.png"
           class="w-12 sm:w-16 absolute -right-2 bottom-32 sm:-right-5 sm:bottom-36 rotate-45"
+          data-aos="fade-right"
         />
         <img
           src="assets/img/javascript.png"
           class="w-9 sm:w-12 absolute -left-9 top-36 sm:-left-12 sm:top-32 rotate-12"
+          data-aos="fade-up-left"
         />
         <img
           src="assets/img/php.png"
           class="w-9 sm:w-12 absolute -right-8 top-52 sm:-right-12 sm:top-52 rotate-45"
+          data-aos="fade-right"
         />
         <img
           src="assets/img/laravel.png"
           class="w-12 sm:w-16 absolute -top-8 left-16 sm:-top-12 -rotate-12"
+          data-aos="zoom-in-up"
         />
         <img
           src="assets/img/anaconda.png"
           class="w-9 sm:w-11 absolute left-36 -top-9 sm:-top-11 -rotate-12"
+          data-aos="zoom-in-up"
         />
         <img
           src="assets/img/tailwindcss.png"
           class="w-12 absolute right-20 -top-8 sm:right-28 sm:-top-10 rotate-12"
+          data-aos="fade-up"
         />
         <i
           class="fa-solid fa-code w-12 absolute -left-2 top-16 sm:-left-3 text-whitebeige text-2xl sm:text-3xl -rotate-45"
+          data-aos="fade-up-left"
         ></i>
 
         <div class="text-white text-center mt-6">
@@ -538,7 +555,7 @@
             Find me online
           </p>
 
-          <div class="flex space-x-4 justify-end">
+          <div class="flex space-x-4 justify-end" data-aos="zoom-in-up">
             <a
               href="mailto:gurungsm.10@gmail.com"
               class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
@@ -589,6 +606,7 @@
 
       <div
         class="flex flex-col justify-items-center items-center text-center order-2 md:order-1 md:items-start md:text-left"
+        data-aos="fade-right"
       >
         <p class="text-base font-extralight font-montaguslab text-whitebeige">
           This is your
@@ -634,6 +652,222 @@
     </section>
     <!-- END ABOUT ME Section -->
 
+    <section
+      id="skills"
+      class="bg-brightorange min-h-screen relative overflow-hidden flex justify-center items-center"
+    >
+      <div class="max-w-6xl mx-auto px-6 pt-24 pb-20" data-aos="zoom-in-up">
+        <!-- Title -->
+        <h2
+          class="text-center text-whitebeige text-3xl sm:text-4xl font-semibold font-montserrat tracking-wide mb-14"
+        >
+          My <span class="text-whitebeige border-b-4 border-green">Skills</span>
+        </h2>
+
+        <!-- Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+          <!-- CARD 1 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/Laravel.svg (1).png"
+              alt="Laravel"
+              class="w-14 h-16 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              LARAVEL
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Experienced in building scalable applications with elegant and
+              powerful MVC functionalities.
+            </p>
+          </div>
+
+          <!-- CARD 2 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/PHP-logo.svg.png"
+              alt="PHP"
+              class="w-16 h-12 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              PHP
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Writing clean and efficient backend logic to create dynamic and
+              secure web features.
+            </p>
+          </div>
+
+          <!-- CARD 3 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/icons8-tailwind-css-144.png"
+              alt="TailwindCSS"
+              class="w-12 h-12 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              TAILWINDCSS
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Crafting responsive and beautifully designed interfaces using
+              utility-first styling.
+            </p>
+          </div>
+
+          <!-- CARD 4 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/mysql-5-logo-png-transparent.png"
+              alt="MySQL"
+              class="w-16 h-16 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              MYSQL
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Experienced in designing, normalizing, and managing relational
+              databases with structured queries.
+            </p>
+          </div>
+
+          <!-- CARD 5 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/icons8-html5-144.png"
+              alt="HTML"
+              class="w-12 h-12 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              HTML
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Structuring clean, semantic, and accessible web pages.
+            </p>
+          </div>
+
+          <!-- CARD 6 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/icons8-css-144 (1).png"
+              alt="CSS"
+              class="w-12 h-12 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              CSS
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Styling beautiful, responsive, and user-friendly web interfaces.
+            </p>
+          </div>
+
+          <!-- CARD 7 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/icons8-git-144.png"
+              alt="Git"
+              class="w-12 h-12 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              GIT
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Version-controlling code with clean commits, branching, and
+              collaborative workflows.
+            </p>
+          </div>
+
+          <!-- CARD 8 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/Python-logo-notext.svg.png"
+              alt="Python"
+              class="w-11 h-11 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              PYTHON
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Solving problems with clear, versatile, and efficient Python
+              programming.
+            </p>
+          </div>
+
+          <!-- CARD 9 -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2"
+          >
+            <img
+              src="assets/img/Figma-logo.svg.png"
+              alt="Figma"
+              class="w-10 h-14 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              FIGMA
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Designing intuitive, user-friendly UI/UX prototypes with precision
+              and creativity.
+            </p>
+          </div>
+
+          <!-- CARD 10 (React) -->
+          <div
+            class="bg-whitebeige rounded-xl px-6 py-20 shadow-lg flex flex-col text-center items-center border-2 border-transparent hover:border-green hover:shadow-xl transition duration-300 transform hover:-translate-y-2 lg:col-start-2"
+          >
+            <img
+              src="assets/img/React-icon.svg.png"
+              alt="React"
+              class="w-12 h-12 mb-4"
+            />
+            <h3
+              class="text-brightorange font-bold text-lg mb-2 font-montserrat"
+            >
+              REACT
+            </h3>
+            <p class="text-textorange text-sm leading-relaxed font-montserrat">
+              Building interactive and efficient user interfaces with components
+              and state-based logic.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       document.getElementById("menuBtn").addEventListener("click", function () {
         const menu = document.getElementById("mobileMenu");
@@ -664,6 +898,8 @@
       window.addEventListener("scroll", activateNav);
 
       document.addEventListener("DOMContentLoaded", activateNav);
+
+      AOS.init();
     </script>
   </body>
 </html>

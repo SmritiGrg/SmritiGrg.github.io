@@ -16,6 +16,7 @@
   --color-whitebeige: #f5e8d7;
   --color-logogreen: #2d3624;
   --color-gitorange: #f05133;
+  --color-textorange: #ff8f61;
 }
 
 .wavy {
@@ -53,4 +54,22 @@
   height: 39px;
   border-radius: 9999px;
   background-color: #ecd06f;
+}
+
+#skills {
+  position: relative;
+}
+
+#skills::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: repeating-linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0.1) 0px,
+    rgba(245, 232, 215, 0.5) 1px,
+    transparent 1px,
+    transparent 130px
+  );
+  pointer-events: none;
 }
