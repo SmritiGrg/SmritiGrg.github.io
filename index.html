@@ -859,47 +859,66 @@
               REACT
             </h3>
             <p class="text-textorange text-sm leading-relaxed font-montserrat">
-              Building interactive and efficient user interfaces with components
-              and state-based logic.
+              Currently learning React to build fast, interactive, and
+              component-based UIs.
             </p>
           </div>
         </div>
       </div>
     </section>
 
+    <section
+      id="thankyou"
+      class="min-h-screen bg-green flex flex-col justify-between"
+    >
+      <div
+        class="text-center py-12 px-6 sm:px-12 lg:px-24 bg-blackie rounded-b-[40%] sm:rounded-b-[50%] h-[350px] sm:h-[500px]"
+      >
+        <h2
+          class="text-green text-4xl sm:text-6xl lg:text-9xl font-semibold font-chicle tracking-wider"
+          data-aos="fade-up"
+        >
+          Thank
+        </h2>
+        <h2
+          class="text-green text-4xl sm:text-6xl lg:text-9xl font-semibold mb-4 font-chicle tracking-wider"
+          data-aos="fade-up"
+        >
+          You!
+        </h2>
+        <div
+          class="flex justify-center text-center mt-8 sm:mt-11"
+          data-aos="fade-right"
+        >
+          <p
+            class="text-green text-base sm:text-lg font-montserrat w-[300px] sm:w-[500px] font-medium"
+          >
+            I <span class="text-brightorange">appreciate</span> your time and
+            interest in exploring my work. If you have any
+            <span class="text-brightorange">questions</span> or would like to
+            connect, feel <span class="text-brightorange">free</span> to reach
+            out!
+          </p>
+        </div>
+      </div>
+      <div
+        class="flex flex-col justify-center items-center text-center sm:mt-20 mb-8"
+      >
+        <div
+          class="flex flex-col sm:flex-row gap-6 sm:gap-20 md:gap-32 text-blackie"
+        >
+          <p><i class="fa-solid fa-phone pr-2"></i>+977 9816694268</p>
+          <p><i class="fa-solid fa-envelope pr-2"></i>gurungsm.10@gmail.com</p>
+        </div>
+        <p
+          class="text-blackie font-montserrat mt-6 font-semibold text-base sm:text-lg"
+        >
+          <i class="fa-regular fa-copyright"></i>2025 SMRITI GURUNG
+        </p>
+      </div>
+    </section>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      document.getElementById("menuBtn").addEventListener("click", function () {
-        const menu = document.getElementById("mobileMenu");
-        menu.classList.toggle("translate-x-0");
-        menu.classList.toggle("-translate-x-full");
-      });
-
-      const sections = document.querySelectorAll("section[id]");
-      const navLinks = document.querySelectorAll(".sidebar-link");
-
-      function activateNav() {
-        let scrollPos = window.scrollY + 150;
-
-        sections.forEach((section) => {
-          const top = section.offsetTop;
-          const height = section.offsetHeight;
-          const id = section.getAttribute("id");
-
-          const link = document.querySelector(`.sidebar-link[href="#${id}"]`);
-
-          if (scrollPos >= top && scrollPos < top + height) {
-            navLinks.forEach((l) => l.classList.remove("active"));
-            link.classList.add("active");
-          }
-        });
-      }
-
-      window.addEventListener("scroll", activateNav);
-
-      document.addEventListener("DOMContentLoaded", activateNav);
-
-      AOS.init();
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
