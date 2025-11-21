@@ -460,192 +460,343 @@
     <!-- END Main Hero Section -->
 
     <!-- START ABOUT ME Section -->
-    <section
-      id="about"
-      class="bg-green flex flex-col md:flex-row h-auto md:h-screen justify-center items-center gap-8 md:gap-24 px-6 md:px-0 py-16 md:py-0"
-    >
-      <div class="relative flex flex-col items-center order-1 md:order-2">
-        <div
-          class="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden border-y-8 border-orange shadow-[0_10px_20px_rgba(209,72,54,1.7)]"
-          data-aos="zoom-in"
-        >
-          <img
-            src="assets/img/profile.jpeg"
-            alt="Smriti Gurung Profile"
-            class="absolute inset-0 w-full h-full object-cover"
-          />
-        </div>
-        <img
-          src="assets/img/html.png"
-          class="w-10 sm:w-12 absolute -left-8 top-52 sm:-left-12 sm:top-52 -rotate-45"
-          data-aos="fade-up-left"
-        />
-        <img
-          src="assets/img/mysql.png"
-          class="w-14 sm:w-20 absolute -left-5 bottom-28 sm:-left-16 sm:bottom-36 -rotate-45"
-          data-aos="fade-up-left"
-        />
-        <img
-          src="assets/img/docker.png"
-          class="w-10 sm:w-12 absolute left-10 bottom-24 sm:left-4 sm:bottom-28 rotate-12"
-          data-aos="fade-up-left"
-        />
-        <img
-          src="assets/img/figma.png"
-          class="w-10 sm:w-14 absolute right-8 -top-2 sm:right-8 sm:-top-3 -rotate-12"
-          data-aos="fade-up-right"
-        />
-        <img
-          src="assets/img/postgresql.png"
-          class="w-7 sm:w-9 absolute -right-1 top-8 rotate-12"
-          data-aos="fade-up-right"
-        />
-        <img
-          src="assets/img/python.png"
-          class="w-9 sm:w-11 absolute -right-8 top-24 rotate-12"
-          data-aos="fade-up-right"
-        />
-        <i
-          class="fa-brands fa-github text-white text-2xl sm:text-3xl absolute left-4 top-6 sm:left-4 sm:top-2 -rotate-12"
-          data-aos="fade-up-left"
-        ></i>
-        <i
-          class="fa-brands fa-git-alt absolute right-10 bottom-24 sm:right-10 sm:bottom-28 text-gitorange text-3xl sm:text-4xl rotate-12"
-          data-aos="fade-right"
-        ></i>
-        <img
-          src="assets/img/css.png"
-          class="w-12 sm:w-16 absolute -right-2 bottom-32 sm:-right-5 sm:bottom-36 rotate-45"
-          data-aos="fade-right"
-        />
-        <img
-          src="assets/img/javascript.png"
-          class="w-9 sm:w-12 absolute -left-9 top-36 sm:-left-12 sm:top-32 rotate-12"
-          data-aos="fade-up-left"
-        />
-        <img
-          src="assets/img/php.png"
-          class="w-9 sm:w-12 absolute -right-8 top-52 sm:-right-12 sm:top-52 rotate-45"
-          data-aos="fade-right"
-        />
-        <img
-          src="assets/img/laravel.png"
-          class="w-12 sm:w-16 absolute -top-8 left-16 sm:-top-12 -rotate-12"
-          data-aos="zoom-in-up"
-        />
-        <img
-          src="assets/img/anaconda.png"
-          class="w-9 sm:w-11 absolute left-36 -top-9 sm:-top-11 -rotate-12"
-          data-aos="zoom-in-up"
-        />
-        <img
-          src="assets/img/tailwindcss.png"
-          class="w-12 absolute right-20 -top-8 sm:right-28 sm:-top-10 rotate-12"
-          data-aos="fade-up"
-        />
-        <i
-          class="fa-solid fa-code w-12 absolute -left-2 top-16 sm:-left-3 text-whitebeige text-2xl sm:text-3xl -rotate-45"
-          data-aos="fade-up-left"
-        ></i>
-
-        <div class="text-white text-center mt-6">
-          <p
-            class="mb-4 font-montaguslab text-sm text-whitebeige border-b-2 inline-block pb-1 px-4"
+    <section id="about" class="bg-green min-h-screen overflow-hidden py-12">
+      <div
+        class="flex flex-col md:flex-row justify-center items-center gap-8 md:gap-24 px-6 md:px-0 py-16 md:py-0"
+      >
+        <div class="relative flex flex-col items-center order-1 md:order-2">
+          <div
+            class="relative w-80 h-80 sm:w-96 sm:h-96 rounded-full overflow-hidden border-y-8 border-orange shadow-[0_10px_20px_rgba(209,72,54,1.7)]"
+            data-aos="zoom-in"
           >
-            Find me online
+            <img
+              src="assets/img/profile.jpeg"
+              alt="Smriti Gurung Profile"
+              class="absolute inset-0 w-full h-full object-cover"
+            />
+          </div>
+          <img
+            src="assets/img/html.png"
+            class="w-10 sm:w-12 absolute -left-8 top-52 sm:-left-12 sm:top-52 -rotate-45"
+            data-aos="fade-up-left"
+          />
+          <img
+            src="assets/img/mysql.png"
+            class="w-14 sm:w-20 absolute -left-5 bottom-28 sm:-left-16 sm:bottom-36 -rotate-45"
+            data-aos="fade-up-left"
+          />
+          <img
+            src="assets/img/docker.png"
+            class="w-10 sm:w-12 absolute left-10 bottom-24 sm:left-4 sm:bottom-28 rotate-12"
+            data-aos="fade-up-left"
+          />
+          <img
+            src="assets/img/figma.png"
+            class="w-10 sm:w-14 absolute right-8 -top-2 sm:right-8 sm:-top-3 -rotate-12"
+            data-aos="fade-up-right"
+          />
+          <img
+            src="assets/img/postgresql.png"
+            class="w-7 sm:w-9 absolute -right-1 top-8 rotate-12"
+            data-aos="fade-up-right"
+          />
+          <img
+            src="assets/img/python.png"
+            class="w-9 sm:w-11 absolute -right-8 top-24 rotate-12"
+            data-aos="fade-up-right"
+          />
+          <i
+            class="fa-brands fa-github text-white text-2xl sm:text-3xl absolute left-4 top-6 sm:left-4 sm:top-2 -rotate-12"
+            data-aos="fade-up-left"
+          ></i>
+          <i
+            class="fa-brands fa-git-alt absolute right-10 bottom-24 sm:right-10 sm:bottom-28 text-gitorange text-3xl sm:text-4xl rotate-12"
+            data-aos="fade-right"
+          ></i>
+          <img
+            src="assets/img/css.png"
+            class="w-12 sm:w-16 absolute -right-2 bottom-32 sm:-right-5 sm:bottom-36 rotate-45"
+            data-aos="fade-right"
+          />
+          <img
+            src="assets/img/javascript.png"
+            class="w-9 sm:w-12 absolute -left-9 top-36 sm:-left-12 sm:top-32 rotate-12"
+            data-aos="fade-up-left"
+          />
+          <img
+            src="assets/img/php.png"
+            class="w-9 sm:w-12 absolute -right-8 top-52 sm:-right-12 sm:top-52 rotate-45"
+            data-aos="fade-right"
+          />
+          <img
+            src="assets/img/laravel.png"
+            class="w-12 sm:w-16 absolute -top-8 left-16 sm:-top-12 -rotate-12"
+            data-aos="zoom-in-up"
+          />
+          <img
+            src="assets/img/anaconda.png"
+            class="w-9 sm:w-11 absolute left-36 -top-9 sm:-top-11 -rotate-12"
+            data-aos="zoom-in-up"
+          />
+          <img
+            src="assets/img/tailwindcss.png"
+            class="w-12 absolute right-20 -top-8 sm:right-28 sm:-top-10 rotate-12"
+            data-aos="fade-up"
+          />
+          <i
+            class="fa-solid fa-code w-12 absolute -left-2 top-16 sm:-left-3 text-whitebeige text-2xl sm:text-3xl -rotate-45"
+            data-aos="fade-up-left"
+          ></i>
+
+          <div class="text-white text-center mt-6">
+            <p
+              class="mb-4 font-montaguslab text-sm text-whitebeige border-b-2 inline-block pb-1 px-4"
+            >
+              Find me online
+            </p>
+
+            <div class="flex space-x-4 justify-end" data-aos="zoom-in-up">
+              <a
+                href="mailto:gurungsm.10@gmail.com"
+                class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
+              >
+                <i
+                  class="fa-solid fa-envelope text-xl group-hover:scale-110 transition"
+                ></i>
+              </a>
+              <a
+                href="https://github.com/SmritiGrg"
+                class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
+                target="_blank"
+              >
+                <i
+                  class="fa-brands fa-github text-xl group-hover:scale-110 transition"
+                ></i>
+              </a>
+              <a
+                href="https://www.instagram.com/smriti.g_28/"
+                class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
+                target="_blank"
+              >
+                <i
+                  class="fa-brands fa-instagram text-xl group-hover:scale-110 transition"
+                ></i>
+              </a>
+              <a
+                href="https://www.linkedin.com/in/smriti-gurung-a50aba302/"
+                class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
+                target="_blank"
+              >
+                <i
+                  class="fa-brands fa-linkedin text-xl group-hover:scale-110 transition"
+                ></i>
+              </a>
+              <a
+                href="https://wa.me/9779816694268"
+                class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
+                target="_blank"
+              >
+                <i
+                  class="fa-solid fa-phone text-xl group-hover:scale-110 transition"
+                ></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="flex flex-col justify-items-center items-center text-center order-2 md:order-1 md:items-start md:text-left"
+          data-aos="fade-right"
+        >
+          <p class="text-base font-extralight font-montaguslab text-whitebeige">
+            This is your
+          </p>
+          <p class="font-montaguslab text-whitebeige text-base sm:text-xl">
+            WEB DEVELOPER, DESIGNER <br />
+            AND <br />
+            LARAVEL INSTRUCTOR
+          </p>
+          <p
+            class="text-brightorange font-chicle text-6xl sm:text-8xl mt-2 sm:mt-0"
+          >
+            Smriti Gurung
+          </p>
+          <p
+            class="text-whitebeige font-montaguslab font-light text-sm mt-4 leading-relaxed max-w-[320px] sm:max-w-md md:max-w-lg text-center md:text-left"
+          >
+            Hey! I’m Smriti — a passionate and creative web designer, developer
+            and Laravel instructor. My main expertise lies in Laravel, MySQL,
+            and Tailwindcss. I love turning ideas into clean, functional, and
+            user-friendly designs. I value continuous improvement by exploring
+            new tools and learning new skills. I love dealing and solving the
+            errors and problems.
           </p>
 
-          <div class="flex space-x-4 justify-end" data-aos="zoom-in-up">
-            <a
-              href="mailto:gurungsm.10@gmail.com"
-              class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
-            >
-              <i
-                class="fa-solid fa-envelope text-xl group-hover:scale-110 transition"
-              ></i>
-            </a>
-            <a
-              href="https://github.com/SmritiGrg"
-              class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
-              target="_blank"
-            >
-              <i
-                class="fa-brands fa-github text-xl group-hover:scale-110 transition"
-              ></i>
-            </a>
-            <a
-              href="https://www.instagram.com/smriti.g_28/"
-              class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
-              target="_blank"
-            >
-              <i
-                class="fa-brands fa-instagram text-xl group-hover:scale-110 transition"
-              ></i>
-            </a>
-            <a
-              href="https://www.linkedin.com/in/smriti-gurung-a50aba302/"
-              class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
-              target="_blank"
-            >
-              <i
-                class="fa-brands fa-linkedin text-xl group-hover:scale-110 transition"
-              ></i>
-            </a>
-            <a
-              href="https://wa.me/9779816694268"
-              class="w-9 h-9 bg-brightorange flex items-center justify-center rounded-lg group hover:shadow-xl hover:shadow-brightorange/50"
-              target="_blank"
-            >
-              <i
-                class="fa-solid fa-phone text-xl group-hover:scale-110 transition"
-              ></i>
-            </a>
+          <div class="bg-whitebeige font-montaguslab text-green w-80 wavy mt-5">
+            <div class="flex flex-col p-8 text-left">
+              <div>
+                <p class="font-semibold">Pokhara, Nepal</p>
+                <p class="text-sm font-light">Location</p>
+              </div>
+              <div class="pt-4">
+                <p class="font-semibold">Laravel Web Developer</p>
+                <p class="text-sm font-light">Specialization</p>
+              </div>
+              <div class="pt-4">
+                <p class="font-semibold">gurungsm.10@gmail.com</p>
+                <p class="text-sm font-light">Email</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <div
-        class="flex flex-col justify-items-center items-center text-center order-2 md:order-1 md:items-start md:text-left"
-        data-aos="fade-right"
+        class="education flex flex-col justify-center items-center mt-5"
+        data-aos="zoom-in-up"
       >
-        <p class="text-base font-extralight font-montaguslab text-whitebeige">
-          This is your
-        </p>
-        <p class="font-montaguslab text-whitebeige text-base sm:text-xl">
-          WEB DEVELOPER, DESIGNER <br />
-          AND <br />
-          LARAVEL INSTRUCTOR
-        </p>
-        <p
-          class="text-brightorange font-chicle text-6xl sm:text-8xl mt-2 sm:mt-0"
+        <h3
+          class="font-montserrat text-lg sm:text-xl text-whitebeige font-medium"
         >
-          Smriti Gurung
-        </p>
-        <p
-          class="text-whitebeige font-montaguslab font-light text-sm mt-4 leading-relaxed max-w-[320px] sm:max-w-md md:max-w-lg text-center md:text-left"
+          - Education & Work
+        </h3>
+        <h3
+          class="mt-1 font-montserrat text-xl sm:text-3xl text-whitebeige font-medium"
         >
-          Hey! I’m Smriti — a passionate and creative web designer, developer
-          and Laravel instructor. My main expertise lies in Laravel, MySQL, and
-          Tailwindcss. I love turning ideas into clean, functional, and
-          user-friendly designs. I value continuous improvement by exploring new
-          tools and learning new skills. I love dealing and solving the errors
-          and problems.
-        </p>
+          My
+          <span class="text-brightorange italic">Academic and</span>
+        </h3>
+        <h3
+          class="mb-8 font-montserrat text-xl sm:text-3xl text-whitebeige font-medium"
+        >
+          <span class="text-brightorange italic">Professional</span> Journey
+        </h3>
+        <div
+          class="flex flex-col md:flex-row gap-8 w-full max-w-4xl px-6 md:px-0 mb-16"
+        >
+          <div class="bg-whitebeige rounded-xl p-8">
+            <h3
+              class="text-center mb-5 font-montserrat text-xl font-bold text-brightorange"
+            >
+              Education
+            </h3>
+            <ol
+              class="relative text-body border-s border-brightorange ml-7 mb-5"
+            >
+              <li class="mb-10 ms-7 font-montserrat">
+                <span
+                  class="absolute flex items-center justify-center w-8 h-8 bg-whitebeige rounded-full -start-4 ring-4 ring-brightorange"
+                >
+                  <i class="fa-solid fa-graduation-cap text-brightorange"></i>
+                </span>
+                <p class="text-xs pl-6 text-brightorange">
+                  February 2023 - May 2025
+                </p>
+                <h3
+                  class="text-brightorange font-semibold leading-tight text-base sm:text-lg pl-6"
+                >
+                  Informatics College
+                </h3>
+                <p
+                  class="text-brightorange text-sm sm:text-base font-normal pl-6"
+                >
+                  BSc (Hons) Computing
+                </p>
+              </li>
+              <li class="mb-10 ms-7 font-montserrat">
+                <span
+                  class="absolute flex items-center justify-center w-8 h-8 bg-whitebeige rounded-full -start-4 ring-4 ring-brightorange"
+                >
+                  <i class="fa-solid fa-graduation-cap text-brightorange"></i>
+                </span>
+                <p class="text-xs pl-6 text-brightorange">
+                  August 2020 - September 2022
+                </p>
+                <h3
+                  class="text-brightorange font-semibold leading-tight text-base sm:text-lg pl-6"
+                >
+                  St. Mary's Secondary School
+                </h3>
+                <p
+                  class="text-brightorange text-sm sm:text-base font-normal pl-6"
+                >
+                  Higher Secondary(+2 Science)
+                </p>
+              </li>
+              <li class="ms-7 font-montserrat">
+                <span
+                  class="absolute flex items-center justify-center w-8 h-8 bg-whitebeige rounded-full -start-4 ring-4 ring-brightorange"
+                >
+                  <i class="fa-solid fa-graduation-cap text-brightorange"></i>
+                </span>
+                <p class="text-xs pl-6 text-brightorange">- March 2020</p>
+                <h3
+                  class="text-brightorange font-semibold leading-tight text-base sm:text-lg pl-6"
+                >
+                  Kumudini Homes Secondary School
+                </h3>
+                <p
+                  class="text-brightorange text-sm sm:text-base font-normal pl-6"
+                >
+                  School Leaving Certificate
+                </p>
+              </li>
+            </ol>
+          </div>
 
-        <div class="bg-whitebeige font-montaguslab text-green w-80 wavy mt-5">
-          <div class="flex flex-col p-8 text-left">
-            <div>
-              <p class="font-semibold">Pokhara, Nepal</p>
-              <p class="text-sm font-light">Location</p>
-            </div>
-            <div class="pt-4">
-              <p class="font-semibold">Laravel Web Developer</p>
-              <p class="text-sm font-light">Specialization</p>
-            </div>
-            <div class="pt-4">
-              <p class="font-semibold">gurungsm.10@gmail.com</p>
-              <p class="text-sm font-light">Email</p>
-            </div>
+          <div class="bg-whitebeige rounded-xl p-8">
+            <h3
+              class="text-center mb-5 font-montserrat text-xl font-bold text-brightorange"
+            >
+              Work Experience
+            </h3>
+            <ol
+              class="relative text-body border-s border-brightorange ml-7 mb-5"
+            >
+              <li class="mb-10 ms-7 font-montserrat">
+                <span
+                  class="absolute flex items-center justify-center w-8 h-8 bg-whitebeige rounded-full -start-4 ring-4 ring-brightorange"
+                >
+                  <i class="fa-solid fa-graduation-cap text-brightorange"></i>
+                </span>
+                <p class="text-xs pl-6 text-brightorange">
+                  September 2025 - Present
+                </p>
+                <h3
+                  class="text-brightorange font-semibold leading-tight text-base sm:text-lg pl-6"
+                >
+                  Elevate Tech Pvt. Ltd.
+                  <i
+                    class="fa-solid fa-circle text-greenblink pl-8 blink text-base"
+                  ></i>
+                </h3>
+                <p
+                  class="text-brightorange text-sm sm:text-base font-normal pl-6"
+                >
+                  Laravel Developer and Instructor
+                </p>
+              </li>
+              <li class="mb-10 ms-7 font-montserrat">
+                <span
+                  class="absolute flex items-center justify-center w-8 h-8 bg-whitebeige rounded-full -start-4 ring-4 ring-brightorange"
+                >
+                  <i class="fa-solid fa-briefcase text-brightorange"></i>
+                </span>
+                <p class="text-xs pl-6 text-brightorange">
+                  December 2024 - March 2025
+                </p>
+                <h3
+                  class="text-brightorange font-semibold leading-tight text-base sm:text-lg pl-6"
+                >
+                  XDezo Technologies
+                </h3>
+                <p
+                  class="text-brightorange text-sm sm:text-base font-normal pl-6"
+                >
+                  Full Stack Laravel Web Developer Intern
+                </p>
+              </li>
+            </ol>
           </div>
         </div>
       </div>
@@ -656,7 +807,7 @@
       id="skills"
       class="bg-brightorange min-h-screen relative overflow-hidden flex justify-center items-center"
     >
-      <div class="max-w-6xl mx-auto px-6 pt-24 pb-20" data-aos="zoom-in-up">
+      <div class="max-w-6xl mx-auto px-6 pt-20 pb-20" data-aos="zoom-in-up">
         <!-- Title -->
         <h2
           class="text-center text-whitebeige text-3xl sm:text-4xl font-semibold font-montserrat tracking-wide mb-14"
