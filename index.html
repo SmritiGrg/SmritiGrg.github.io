@@ -562,21 +562,21 @@
           class="flex flex-col justify-items-center items-center text-center order-2 md:order-1 md:items-start md:text-left"
           data-aos="fade-right"
         >
-          <p class="text-base font-extralight font-montaguslab text-whitebeige">
+          <p class="text-base font-light font-montserrat text-whitebeige">
             This is your
           </p>
-          <p class="font-montaguslab text-whitebeige text-base sm:text-xl">
+          <p class="font-montserrat text-whitebeige text-base sm:text-xl">
             WEB DEVELOPER, DESIGNER <br />
             AND <br />
             LARAVEL INSTRUCTOR
           </p>
           <p
-            class="text-brightorange font-chicle text-6xl sm:text-8xl mt-2 sm:mt-0"
+            class="text-brightorange font-chicle text-6xl sm:text-8xl mt-2 sm:mt-4"
           >
             Smriti Gurung
           </p>
           <p
-            class="text-whitebeige font-montaguslab font-light text-sm mt-4 leading-relaxed max-w-[320px] sm:max-w-md md:max-w-lg text-center md:text-left"
+            class="text-whitebeige font-montserrat font-normal text-sm mt-4 leading-relaxed max-w-[300px] sm:max-w-md md:max-w-md text-center md:text-left"
           >
             Hey! I’m Smriti — a passionate and creative web designer, developer
             and Laravel instructor. My main expertise lies in Laravel, MySQL,
@@ -630,7 +630,7 @@
         >
           <div class="bg-blackie rounded-xl p-8 sm:-rotate-12">
             <h3
-              class="text-center mb-5 font-montserrat text-xl font-bold text-green"
+              class="text-center mb-5 font-montserrat text-xl sm:text-2xl font-bold text-green"
             >
               Education
             </h3>
@@ -694,7 +694,7 @@
 
           <div class="bg-blackie rounded-xl p-8 sm:rotate-12">
             <h3
-              class="text-center mb-5 font-montserrat text-xl font-bold text-green"
+              class="text-center mb-5 font-montserrat text-xl sm:text-2xl font-bold text-green"
             >
               Work Experience
             </h3>
@@ -747,6 +747,7 @@
     </section>
     <!-- END ABOUT ME Section -->
 
+    <!-- START SKILLS Section -->
     <section
       id="skills"
       class="bg-brightorange min-h-screen relative overflow-hidden flex justify-center items-center"
@@ -961,7 +962,92 @@
         </div>
       </div>
     </section>
+    <!-- END SKILLS Section -->
 
+    <!-- START CONTACT ME Section -->
+    <section
+      id="contact"
+      class="h-screen flex items-center justify-center px-4 py-16 bg-green"
+    >
+      <div
+        class="bg-whitebeige max-w-5xl w-full rounded-[40px] shadow-lg px-6 sm:px-12 py-4 text-center"
+        data-aos="fade-up"
+      >
+        <h2
+          class="text-center text-brightorange text-2xl sm:text-3xl font-bold font-montserrat tracking-wide mb-4"
+        >
+          CONTACT
+          <span class="text-brightorange border-b-4 border-green">ME</span>
+        </h2>
+
+        <!-- Subtitle -->
+        <p
+          class="text-blackie max-w-4xl mx-auto leading-relaxed mb-12 font-medium font-montserrat text-sm"
+        >
+          If you have a small idea or a big project in mind, need help turning
+          your vision into reality, or just want to connect and share ideas, I’d
+          love to hear from you and explore what we can create together.
+        </p>
+
+        <!-- Form -->
+        <form
+          class="space-y-5 max-w-xl mx-auto"
+          action=""
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            class="w-full bg-formbox text-bggreen px-5 py-3 rounded-lg outline-none focus:ring-1 focus:ring-green"
+            required
+          />
+
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="w-full bg-formbox text-bggreen px-5 py-3 rounded-lg outline-none focus:ring-1 focus:ring-green"
+            required
+          />
+
+          <input
+            type="text"
+            name="subject"
+            placeholder="Subject"
+            class="w-full bg-formbox text-bggreen px-5 py-3 rounded-lg outline-none focus:ring-1 focus:ring-green"
+            required
+          />
+
+          <textarea
+            placeholder="Message"
+            name="message"
+            rows="5"
+            class="w-full bg-formbox text-bggreen px-5 py-3 rounded-lg outline-none focus:ring-1 focus:ring-green resize-none"
+          ></textarea>
+
+          <!-- Submit Button -->
+          <div class="flex justify-start">
+            <button
+              type="submit"
+              class="flex items-center bg-brightorange px-1 py-1 rounded-full transition-all duration-300 hover:opacity-90 cursor-pointer"
+            >
+              <span
+                class="font-montserrat bg-green rounded-full px-5 py-2 font-medium"
+                >Submit</span
+              >
+              <span
+                class="ml-3 bg-whitebeige w-9 h-9 flex items-center justify-center rounded-full"
+              >
+                <i class="fa-solid fa-arrow-right text-blackie"></i>
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- END CONTACT ME Section -->
+
+    <!-- START THANK YOU Section -->
     <section
       id="thankyou"
       class="min-h-screen bg-green flex flex-col justify-between"
@@ -1012,6 +1098,7 @@
         </p>
       </div>
     </section>
+    <!-- END THANK YOU Section -->
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="script.js"></script>
